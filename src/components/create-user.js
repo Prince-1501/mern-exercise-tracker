@@ -4,7 +4,7 @@ export default class CreateUser extends Component{
   render(){
     return(
       <div>
-      <p> You are in the create User Component! </p>
+      <p> You are in the create User Component</p>
       </div>
     );
   }
