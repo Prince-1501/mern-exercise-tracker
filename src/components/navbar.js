@@ -4,13 +4,13 @@ import { Link } from 'react-router-dom';
 export default class Navbar extends Component {
   render(){
     return (
-      <nav>
-        <Link to="/">ExcerTracker</Link>
-        <div>
-          <ul>
-            <li> <Link to='/'>Exercises</Link> </li>
-            <li> <Link to='/create'>Create Exercise Log</Link> </li>
-            <li> <Link to='/user'>Create User</Link> </li>
+      <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
+        <Link to="/" className="navbar-brand">ExcerTracker</Link>
+        <div className="collpase navbar-collapse">
+          <ul className="navbar-nav mr-auto">
+            <li className="navbar-item"> <Link className="nav-link" to='/'>Exercises</Link> </li>
+            <li className="navbar-item"> <Link className="nav-link" to='/create'>Create Exercise Log</Link> </li>
+            <li className="navbar-item"> <Link className="nav-link" to='/user'>Create User</Link> </li>
           </ul>
         </div>
       </nav>
